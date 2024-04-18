@@ -1,7 +1,6 @@
 import json
 from httplib2 import Http
 from pprint import pprint
-from google.colab import userdata
 
 class webhook():
     def __init__(self, url:str):
