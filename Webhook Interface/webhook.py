@@ -19,7 +19,7 @@ class webhook():
             uri=self.url,
             method="POST",
             headers=message_headers,
-            body=dumps(app_message),
+            body=json.dumps(app_message),
         )
         if printResponse:
             pprint(response)
