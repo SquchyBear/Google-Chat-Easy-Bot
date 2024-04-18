@@ -1,5 +1,5 @@
 import json
-import httplib2
+from httplib2 import Http
 from pprint import pprint
 
 class webhook():
